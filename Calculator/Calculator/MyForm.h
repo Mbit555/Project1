@@ -127,6 +127,7 @@ namespace Calculator {
 			this->button1->TabIndex = 2;
 			this->button1->Text = L"+";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// button2
 			// 
@@ -136,6 +137,7 @@ namespace Calculator {
 			this->button2->TabIndex = 2;
 			this->button2->Text = L"-";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
 			// button3
 			// 
@@ -145,6 +147,7 @@ namespace Calculator {
 			this->button3->TabIndex = 2;
 			this->button3->Text = L"*";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
 			// button4
 			// 
@@ -154,6 +157,7 @@ namespace Calculator {
 			this->button4->TabIndex = 2;
 			this->button4->Text = L"/";
 			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			// 
 			// MyForm
 			// 
@@ -172,10 +176,78 @@ namespace Calculator {
 			this->Controls->Add(this->label1);
 			this->Name = L"MyForm";
 			this->Text = L"Calculator";
+			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
-	};
+	private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e) {
+				 
+	}
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+			 if (textBox1->Text == "" && textBox2->Text == "") //Проверяем введены ли числа
+			 {
+				 //ShowMessage("Числа не введены!"); // Если нет ты выводим сообщение
+			 }
+			 else //Если введены то
+			 {
+				 float a; // Переменная для числа a
+				 float b; // Переменная для числа b
+				 float result; // Переменная для результата
+				 a = Convert::ToDouble(textBox1->Text); // Берем из первого эдита строку и переводим ее в число
+				 b = Convert::ToDouble(textBox2->Text); // Берем из первого эдита строку и переводим ее в число
+				 result = a + b; // Складываем два числа и помещаем в переменную для результата
+				 textBox3->Text = result.ToString(); // Выводим значение переменной результат
+			 }
+}
+private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+			 if (textBox1->Text == "" && textBox2->Text == "") //Проверяем введены ли числа
+			 {
+				 //ShowMessage("Числа не введены!"); // Если нет ты выводим сообщение
+			 }
+			 else //Если введены то
+			 {
+				 float a; // Переменная для числа a
+				 float b; // Переменная для числа b
+				 float result; // Переменная для результата
+				 a = Convert::ToDouble(textBox1->Text); // Берем из первого эдита строку и переводим ее в число
+				 b = Convert::ToDouble(textBox2->Text); // Берем из первого эдита строку и переводим ее в число
+				 result = a - b; // Вычетаем два числа и помещаем в переменную для результата
+				 textBox3->Text = result.ToString(); // Выводим значение переменной результат
+			 }
+}
+private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
+			 if (textBox1->Text == "" && textBox2->Text == "") //Проверяем введены ли числа
+			 {
+				 //ShowMessage("Числа не введены!"); // Если нет ты выводим сообщение
+			 }
+			 else //Если введены то
+			 {
+				 float a; // Переменная для числа a
+				 float b; // Переменная для числа b
+				 float result; // Переменная для результата
+				 a = Convert::ToDouble(textBox1->Text); // Берем из первого эдита строку и переводим ее в число
+				 b = Convert::ToDouble(textBox2->Text); // Берем из первого эдита строку и переводим ее в число
+				 result = a * b; // Умножаем два числа и помещаем в переменную для результата
+				 textBox3->Text = result.ToString(); // Выводим значение переменной результат
+			 }
+}
+private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
+			 if (textBox1->Text == "" && textBox2->Text == "") //Проверяем введены ли числа
+			 {
+				 //ShowMessage("Числа не введены!"); // Если нет ты выводим сообщение
+			 }
+			 else //Если введены то
+			 {
+				 float a; // Переменная для числа a
+				 float b; // Переменная для числа b
+				 float result; // Переменная для результата
+				 a = Convert::ToDouble(textBox1->Text); // Берем из первого эдита строку и переводим ее в число
+				 b = Convert::ToDouble(textBox2->Text); // Берем из первого эдита строку и переводим ее в число
+				 result = a / b; // Делим два числа и помещаем в переменную для результата
+				 textBox3->Text = result.ToString(); // Выводим значение переменной результат
+			 }
+}
+};
 }
