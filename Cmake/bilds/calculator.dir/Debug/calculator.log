@@ -1,0 +1,40 @@
+﻿Build started 19.06.2015 23:47:42.
+     1>Project "D:\Aipps\branches\functional\Cmake\bilds\calculator.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"calculator.dir\Debug\\" /Fd"calculator.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\MyForm.cpp
+         Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x64
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"calculator.dir\Debug\\" /Fd"calculator.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\MyForm.cpp
+         
+         MyForm.cpp
+     1>d:\aipps\branches\functional\cmake\MyForm.h(5): error C2871: 'System' : a namespace with this name does not exist
+     1>d:\aipps\branches\functional\cmake\MyForm.h(6): error C2653: 'System' : is not a class or namespace name
+     1>d:\aipps\branches\functional\cmake\MyForm.h(6): error C2871: 'ComponentModel' : a namespace with this name does not exist
+     1>d:\aipps\branches\functional\cmake\MyForm.h(7): error C2653: 'System' : is not a class or namespace name
+     1>d:\aipps\branches\functional\cmake\MyForm.h(7): error C2871: 'Collections' : a namespace with this name does not exist
+     1>d:\aipps\branches\functional\cmake\MyForm.h(8): error C2653: 'System' : is not a class or namespace name
+     1>d:\aipps\branches\functional\cmake\MyForm.h(8): error C2871: 'Forms' : a namespace with this name does not exist
+     1>d:\aipps\branches\functional\cmake\MyForm.h(9): error C2653: 'System' : is not a class or namespace name
+     1>d:\aipps\branches\functional\cmake\MyForm.h(9): error C2871: 'Data' : a namespace with this name does not exist
+     1>d:\aipps\branches\functional\cmake\MyForm.h(10): error C2653: 'System' : is not a class or namespace name
+     1>d:\aipps\branches\functional\cmake\MyForm.h(10): error C2871: 'Drawing' : a namespace with this name does not exist
+     1>d:\aipps\branches\functional\cmake\MyForm.h(15): error C2059: syntax error : 'public'
+     1>d:\aipps\branches\functional\cmake\MyForm.h(15): error C2653: 'System' : is not a class or namespace name
+     1>d:\aipps\branches\functional\cmake\MyForm.h(16): error C2143: syntax error : missing ';' before '{'
+     1>d:\aipps\branches\functional\cmake\MyForm.h(16): error C2447: '{' : missing function header (old-style formal list?)
+     1>..\MyForm.cpp(3): error C3083: 'Windows': the symbol to the left of a '::' must be a type
+     1>..\MyForm.cpp(3): error C2039: 'Forms' : is not a member of 'Calculator'
+     1>..\MyForm.cpp(3): error C2871: 'Forms' : a namespace with this name does not exist
+     1>..\MyForm.cpp(5): error C2337: 'STAThreadAttribute' : attribute not found
+     1>..\MyForm.cpp(6): error C2065: 'array' : undeclared identifier
+     1>..\MyForm.cpp(6): error C2653: 'System' : is not a class or namespace name
+     1>..\MyForm.cpp(6): error C2065: 'String' : undeclared identifier
+     1>..\MyForm.cpp(6): error C2059: syntax error : '>'
+     1>..\MyForm.cpp(6): error C2143: syntax error : missing ';' before '{'
+     1>..\MyForm.cpp(6): error C2447: '{' : missing function header (old-style formal list?)
+     1>Done Building Project "D:\Aipps\branches\functional\Cmake\bilds\calculator.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09

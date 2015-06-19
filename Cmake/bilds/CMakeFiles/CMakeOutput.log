@@ -1,0 +1,340 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine версии 12.0.21005.1
+[Microsoft .NET Framework версии 4.0.30319.18408]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 19.06.2015 23:44:48.
+Проект "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\3.2.1\CompilerIdC\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "Debug\".
+  Создание каталога "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Создание "Debug\CompilerIdC.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  D:\VS2013\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\3.2.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\VS2013\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Файл "Debug\CompilerIdC.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Сборка проекта "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\3.2.1\CompilerIdC\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:01.56
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/3.2.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine версии 12.0.21005.1
+[Microsoft .NET Framework версии 4.0.30319.18408]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 19.06.2015 23:44:50.
+Проект "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\3.2.1\CompilerIdCXX\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "Debug\".
+  Создание каталога "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Создание "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  D:\VS2013\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\3.2.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\VS2013\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Файл "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Сборка проекта "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\3.2.1\CompilerIdCXX\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.58
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/3.2.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec4138987814.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine версии 12.0.21005.1
+[Microsoft .NET Framework версии 4.0.30319.18408]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 19.06.2015 23:44:50.
+Проект "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\cmTryCompileExec4138987814.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTryCompileExec4138987814.dir\Debug\".
+  Создание каталога "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTryCompileExec4138987814.dir\Debug\cmTryCom.4BE9D09A.tlog\".
+InitializeBuildStatus:
+  Создание "cmTryCompileExec4138987814.dir\Debug\cmTryCom.4BE9D09A.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  D:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4138987814.dir\Debug\\" /Fd"cmTryCompileExec4138987814.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4138987814.dir\Debug\\" /Fd"cmTryCompileExec4138987814.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4138987814.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4138987814.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4138987814.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec4138987814.dir\Debug\testCCompiler.obj
+  cmTryCompileExec4138987814.vcxproj -> D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4138987814.exe
+FinalizeBuildStatus:
+  Файл "cmTryCompileExec4138987814.dir\Debug\cmTryCom.4BE9D09A.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTryCompileExec4138987814.dir\Debug\cmTryCom.4BE9D09A.tlog\cmTryCompileExec4138987814.lastbuildstate".
+Сборка проекта "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\cmTryCompileExec4138987814.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.66
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1985398121.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine версии 12.0.21005.1
+[Microsoft .NET Framework версии 4.0.30319.18408]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 19.06.2015 23:44:51.
+Проект "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\cmTryCompileExec1985398121.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTryCompileExec1985398121.dir\Debug\".
+  Создание каталога "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTryCompileExec1985398121.dir\Debug\cmTryCom.55679F4C.tlog\".
+InitializeBuildStatus:
+  Создание "cmTryCompileExec1985398121.dir\Debug\cmTryCom.55679F4C.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  D:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1985398121.dir\Debug\\" /Fd"cmTryCompileExec1985398121.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1985398121.dir\Debug\\" /Fd"cmTryCompileExec1985398121.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1985398121.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1985398121.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1985398121.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec1985398121.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec1985398121.vcxproj -> D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1985398121.exe
+FinalizeBuildStatus:
+  Файл "cmTryCompileExec1985398121.dir\Debug\cmTryCom.55679F4C.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTryCompileExec1985398121.dir\Debug\cmTryCom.55679F4C.tlog\cmTryCompileExec1985398121.lastbuildstate".
+Сборка проекта "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\cmTryCompileExec1985398121.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.43
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1667533475.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine версии 12.0.21005.1
+[Microsoft .NET Framework версии 4.0.30319.18408]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 19.06.2015 23:44:52.
+Проект "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\cmTryCompileExec1667533475.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTryCompileExec1667533475.dir\Debug\".
+  Создание каталога "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTryCompileExec1667533475.dir\Debug\cmTryCom.D6F7701A.tlog\".
+InitializeBuildStatus:
+  Создание "cmTryCompileExec1667533475.dir\Debug\cmTryCom.D6F7701A.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  D:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1667533475.dir\Debug\\" /Fd"cmTryCompileExec1667533475.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1667533475.dir\Debug\\" /Fd"cmTryCompileExec1667533475.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1667533475.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1667533475.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1667533475.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec1667533475.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec1667533475.vcxproj -> D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1667533475.exe
+FinalizeBuildStatus:
+  Файл "cmTryCompileExec1667533475.dir\Debug\cmTryCom.D6F7701A.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTryCompileExec1667533475.dir\Debug\cmTryCom.D6F7701A.tlog\cmTryCompileExec1667533475.lastbuildstate".
+Сборка проекта "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\cmTryCompileExec1667533475.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.46
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3969934764.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine версии 12.0.21005.1
+[Microsoft .NET Framework версии 4.0.30319.18408]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 19.06.2015 23:44:53.
+Проект "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\cmTryCompileExec3969934764.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTryCompileExec3969934764.dir\Debug\".
+  Создание каталога "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTryCompileExec3969934764.dir\Debug\cmTryCom.C39FD54A.tlog\".
+InitializeBuildStatus:
+  Создание "cmTryCompileExec3969934764.dir\Debug\cmTryCom.C39FD54A.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  D:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3969934764.dir\Debug\\" /Fd"cmTryCompileExec3969934764.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3969934764.dir\Debug\\" /Fd"cmTryCompileExec3969934764.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3969934764.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3969934764.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3969934764.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3969934764.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec3969934764.vcxproj -> D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3969934764.exe
+FinalizeBuildStatus:
+  Файл "cmTryCompileExec3969934764.dir\Debug\cmTryCom.C39FD54A.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTryCompileExec3969934764.dir\Debug\cmTryCom.C39FD54A.tlog\cmTryCompileExec3969934764.lastbuildstate".
+Сборка проекта "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\cmTryCompileExec3969934764.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.45
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec950490199.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine версии 12.0.21005.1
+[Microsoft .NET Framework версии 4.0.30319.18408]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 19.06.2015 23:44:53.
+Проект "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\cmTryCompileExec950490199.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTryCompileExec950490199.dir\Debug\".
+  Создание каталога "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTryCompileExec950490199.dir\Debug\cmTryCom.358688FA.tlog\".
+InitializeBuildStatus:
+  Создание "cmTryCompileExec950490199.dir\Debug\cmTryCom.358688FA.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  D:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec950490199.dir\Debug\\" /Fd"cmTryCompileExec950490199.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec950490199.dir\Debug\\" /Fd"cmTryCompileExec950490199.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec950490199.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec950490199.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Aipps/branches/functional/Cmake/bilds/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec950490199.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec950490199.dir\Debug\feature_tests.obj
+  cmTryCompileExec950490199.vcxproj -> D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec950490199.exe
+FinalizeBuildStatus:
+  Файл "cmTryCompileExec950490199.dir\Debug\cmTryCom.358688FA.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTryCompileExec950490199.dir\Debug\cmTryCom.358688FA.tlog\cmTryCompileExec950490199.lastbuildstate".
+Сборка проекта "D:\Aipps\branches\functional\Cmake\bilds\CMakeFiles\CMakeTmp\cmTryCompileExec950490199.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.40
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
